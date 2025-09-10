@@ -1,5 +1,5 @@
 :root {
-
+    --backgroundColor: #fff;
 }
 
 * {
@@ -12,11 +12,24 @@
 body {
     display: flex;
     justify-content: center;
+    background: black;
 }
 
 .pageContainer {
-    width: 80%;
+    width: 1024px;
     min-width: 320px;
     height: 100vh;
     border: solid black 1px;
+    display: flex;
+}
+
+.leftSideContainer {
+    width: 35%;
+    background: no-repeat url(images/forrest.jpg);
+    background-size: cover;
+}
+
+.rightSideContainer {
+    width: 65%;
+    background: var(--backgroundColor);
 }
