@@ -16,11 +16,50 @@
         <div class="rightSideContainer">
             <div class="top part">
                 <div class="instructionsContainer">
-                    <p>Sign up now. Please, we're running out of money we really need people to sign up or else we'll get fired</p>
+                    <p><strong>Sign up now. Please, we're running out of money we really need people to sign up or else we'll get fired.</strong></p>
                 </div>
             </div>
             <div class="middle part">
+            
+                <form action="" method="get" class="signInForm">
+                    <h3>Tell us about yourself!</h3>
+                    <div class="form-row">
+                        <div>
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" name="firstName" minlength="2" required>                        
+                        </div>
+                        <div>
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" name="lastName" minlength="2" required>
+                        </div>                        
+                    </div>
+                    <div class="form-row">
+                        <div>
+                            <label for="phoneNumber">Phone Number</label>
+                            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="(555) 555-5555">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="test@gmail.com">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div>
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                        <div>
+                            <label for="confirmPassword">Confirm Password</label>
+                            <input type="password" name="confirmPassword" id="confirmPassword">
+                        </div>
+                    </div>
+                    <div class="form-row button-row">
+                        <div class="button">
+                            <button>Submit</button>
+                        </div>
+                    </div>
 
+                </form>
             </div>
             <div class="bottom part">
 
